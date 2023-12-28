@@ -26,7 +26,7 @@ public class ShortUrlRepository(AppDbContext appDbContext) : IShortUrlInterface
             ShortUrlModel model = new ShortUrlModel()
             {
                 OrginalUrl = link,
-                ShortUrl = "https://brogrammers.fn1.uz/" + shortUrl,
+                ShortUrl = "https://team1.fn1.uz/" + shortUrl,
                 UserId = "1"
             };
             _DbContext.shortUrlModels.Add(model);
